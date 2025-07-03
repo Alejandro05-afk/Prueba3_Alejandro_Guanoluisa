@@ -25,7 +25,7 @@ public class Factura extends JFrame {
         buttonCalcular.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String codigo = textFieldCodigo.getText();
+
                 String nombre = textFieldProducto.getText();
                 String detalle = textFieldPrecio.getText();
                 Double precio = Double.valueOf(textFieldPrecio.getText());

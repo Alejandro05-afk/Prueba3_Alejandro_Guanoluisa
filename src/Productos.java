@@ -49,6 +49,7 @@ public class Productos extends JFrame{
                     textFieldStock.setText("");
 
                     Factura factura = new Factura(codigo,nombre,detalle,precio,stock, usuario);
+                    Mostrar_productos mostrarProductos = new Mostrar_productos(codigo,nombre,detalle,precio,stock, usuario);
                 }
             }
         });

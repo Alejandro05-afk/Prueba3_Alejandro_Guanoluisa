@@ -39,7 +39,9 @@ public class Menu_opciones extends JFrame {
         verProductosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                Mostrar_productos mostrarProductos = new Mostrar_productos(codigo,nombre,detalle,precio,stock, usuario);
+                mostrarProductos.setVisible(true);
+                dispose();
             }
         });
     }
